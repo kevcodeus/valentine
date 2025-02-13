@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Knew you would say yes!</title>
+    <link rel="stylesheet" href="./yes_style.css">
+</head>
+<body>
+    <audio autoplay loop>
+        <source src="Until I found You.mp3" type="audio/mpeg">
+    </audio>
+    
+    <div class="container">
+        
+            <!-- Dancing Couple GIF -->
+            <!-- <div class="dancing-gif">
+                <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExaG5oMnZmNm8wNWwzcXo0MDUzeTU1MGR6ZzltNHk1bXRiYmEwdGczciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/gCy8PslyGfBu0/giphy.gif" alt="Dancing Couple">
+            </div> -->
+        <h1 class="header_text">I Knew you would say yes!</h1>
+        <div class="gif_container">
+        </div>     
+    </div>
+    <script>
+        
+        const emojis = ["❤️", "💖", "💕", "💘", "💗", "💞", "💓"];
+    
+        const heartConfetti = () => {
+            const heart = document.createElement("div");
+            heart.innerHTML = emojis[Math.floor(Math.random() * emojis.length)]; // Pick a random emoji
+            heart.style.position = "fixed";
+            heart.style.left = `${Math.random() * 100}vw`; // Random horizontal position
+            heart.style.top = "-10px"; // Start from above the screen
+            heart.style.fontSize = `${Math.random() * 20 + 15}px`; // Random size
+            heart.style.opacity = Math.random() * 0.5 + 0.5; // Random opacity (0.5 to 1)
+            heart.style.pointerEvents = "none"; // Prevent interaction
+    
+            // Random fall duration (3s - 6s)
+            const fallDuration = Math.random() * 3 + 3;
+    
+            // Apply animation dynamically
+            heart.style.animation = `fall ${fallDuration}s linear`;
+    
+            document.body.appendChild(heart);
+    
+            setTimeout(() => heart.remove(), fallDuration * 1000); // Remove after falling
+        };
+    
+        setInterval(heartConfetti, 200); // Generate confetti every 200ms
+    </script>
+    
+    <style>
+        @keyframes fall {
+            from {
+                transform: translateY(0);
+            }
+            to {
+                transform: translateY(100vh);
+                opacity: 0;
+            }
+        }
+    </style>
+    
+    
+</body>
+
+</html>
