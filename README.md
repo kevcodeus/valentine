@@ -32,8 +32,7 @@ cd valentine-envelope
 🌐 Open the project in a browser
 Simply open index.html in your browser.
 
-⚡ (Optional) Use Live Server
-If you're using VS Code, right-click on index.html and select "Open with Live Server" for the best experience.
+
 
 💻 Technologies Used
 HTML5 – Structure of the envelope, card, and content
