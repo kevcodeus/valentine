@@ -27,7 +27,7 @@ A **beautifully animated Valentine's envelope** that opens when clicked, reveali
 
 ### 📥 Clone the repository  
 ```sh
-git clone [https://github.com/yourusername/valentine-envelope.git](https://github.com/kevcodeus/valentine.git)
+git clone https://github.com/kevcodeus/valentine.git
 cd valentine-envelope
 🌐 Open the project in a browser
 Simply open index.html in your browser.
