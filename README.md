@@ -1,7 +1,4 @@
-📌 README.md - Valentine's Envelope Project
-md
-Copy
-Edit
+
 # 💌 Valentine's Envelope Animation  
 
 A **beautifully animated Valentine's envelope** that reveals a **secret message** when clicked! This project features a **floating envelope**, **animated hearts**, and an **interactive card** that transitions to a surprise message.
