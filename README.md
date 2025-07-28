@@ -19,7 +19,7 @@ A **beautifully animated Valentine's envelope** that opens when clicked, reveali
 
 ## 🎨 Live Preview  
 
-👉 **[Click here to view the live demo](#)** _(Replace with actual link if deployed)_
+👉 **[https://kevcodeus.github.io/valentine/](#)** _(Replace with actual link if deployed)_
 
 ---
 
